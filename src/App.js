@@ -1,15 +1,14 @@
 import React from "react";
-import Schedule from "./component/Schedule";
+import "bootstrap/dist/css/bootstrap.min.css";
+import PasswordUpdate from "./component/PasswordUpdate";
 
 
 function App() {
   return (
-    <div>
-      <Schedule />
+    <div className="App">
+      <PasswordUpdate />
     </div>
   );
 }
 
 export default App;
-
-
