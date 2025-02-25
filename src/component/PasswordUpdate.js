@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./PasswordUpdate.css";
 
-const ChangePassword = () => {
+const PasswordUpdate = () => {
   const [showForm, setShowForm] = useState(false);
 
   return (
@@ -40,5 +40,5 @@ const ChangePassword = () => {
   );
 };
 
-export default ChangePassword;
+export default PasswordUpdate;
 
